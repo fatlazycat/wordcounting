@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AFA21AE73E84C62B082CEC2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D75488CFB47F4E39844D4AE0 /* libPods.a */; settings = {}; };
+		B63740CC33C9797C2E73F0DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B63742BEC4C5FF8BC9AD6191 /* main.m */; };
+		B63743100808E5F592EE2049 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6374C4D4D78C178839004C5 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B63741B796480BD629C9962B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B63742BEC4C5FF8BC9AD6191 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B637458B21D79670D2CEBC52 /* word_counting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "word_counting-Prefix.pch"; sourceTree = "<group>"; };
+		B6374C4D4D78C178839004C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6374C8A6B27159999C5C9FF /* word_counting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = word_counting; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75488CFB47F4E39844D4AE0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D758D5115C774784B59CD953 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6374C8B589094B98D8EA8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63743100808E5F592EE2049 /* Foundation.framework in Frameworks */,
+				0AFA21AE73E84C62B082CEC2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6374184702200EED42A68B2 /* word_counting */ = {
+			isa = PBXGroup;
+			children = (
+				B63742BEC4C5FF8BC9AD6191 /* main.m */,
+				B637472B9E55A69D73E1057F /* Supporting Files */,
+			);
+			path = word_counting;
+			sourceTree = "<group>";
+		};
+		B637472B9E55A69D73E1057F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B637458B21D79670D2CEBC52 /* word_counting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B63748F321CBA938F1752011 = {
+			isa = PBXGroup;
+			children = (
+				B6374BED5B8EE18B2BAB1654 /* Products */,
+				B6374D13C0508CD7E7F007A8 /* Frameworks */,
+				B6374184702200EED42A68B2 /* word_counting */,
+				D758D5115C774784B59CD953 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		B6374BED5B8EE18B2BAB1654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6374C8A6B27159999C5C9FF /* word_counting */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6374D13C0508CD7E7F007A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6374C4D4D78C178839004C5 /* Foundation.framework */,
+				D75488CFB47F4E39844D4AE0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6374934B463DB10DB27235B /* word_counting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B637482D0EF0D06033E7A40E /* Build configuration list for PBXNativeTarget "word_counting" */;
+			buildPhases = (
+				927D6F8525B24F64BEA88737 /* Check Pods Manifest.lock */,
+				B6374803C338DD99599ACCDA /* Sources */,
+				B6374C8B589094B98D8EA8D2 /* Frameworks */,
+				B63741B796480BD629C9962B /* CopyFiles */,
+				30D5D1CBEADF4AD598B74BA9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = word_counting;
+			productName = word_counting;
+			productReference = B6374C8A6B27159999C5C9FF /* word_counting */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B63743E2B1BFC4F415DDDF8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = B6374CDBE8125DBD601810B2 /* Build configuration list for PBXProject "word_counting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B63748F321CBA938F1752011;
+			productRefGroup = B6374BED5B8EE18B2BAB1654 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				B6374934B463DB10DB27235B /* word_counting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30D5D1CBEADF4AD598B74BA9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 1;
+		};
+		927D6F8525B24F64BEA88737 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6374803C338DD99599ACCDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63740CC33C9797C2E73F0DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B63743F667C3466A0843352C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B63743FF9F9A05398B32F0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D758D5115C774784B59CD953 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "word_counting/word_counting-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6374BB3D15B15E83F1D9029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D758D5115C774784B59CD953 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "word_counting/word_counting-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6374F76C63CD0D9948B6F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B637482D0EF0D06033E7A40E /* Build configuration list for PBXNativeTarget "word_counting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6374BB3D15B15E83F1D9029 /* Release */,
+				B63743FF9F9A05398B32F0A8 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6374CDBE8125DBD601810B2 /* Build configuration list for PBXProject "word_counting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6374F76C63CD0D9948B6F6D /* Release */,
+				B63743F667C3466A0843352C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B63743E2B1BFC4F415DDDF8C /* Project object */;
+}

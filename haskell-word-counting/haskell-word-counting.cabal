@@ -1,0 +1,59 @@
+name:           progfun
+version:        0.0.1
+cabal-version:  >=1.10
+build-type:     Simple
+license:        AllRightsReserved
+license-file:   ""
+data-dir:       ""
+
+executable progfun-haskell
+  build-depends:     
+                    base -any,
+                    aeson,
+                    attoparsec,
+                    bytestring,
+                    random,
+                    containers == 0.5.2.1,
+                    split,
+                    text
+  buildable:         True
+  main-is:           Main.hs
+  Default-language:  Haskell2010
+  hs-source-dirs:    src
+  other-modules:   WordCounting
+
+test-suite test-progfun
+  build-depends:    
+                    HTF == 0.10.*,
+                    base,
+                    aeson,
+                    attoparsec,
+                    bytestring,
+                    random == 1.0.1.1,
+                    containers == 0.5.2.1,
+                    regex-compat,
+                    split,
+                    text,
+                    unordered-containers == 0.2.2.1
+  type:              exitcode-stdio-1.0
+  Default-language:  Haskell2010
+  main-is:           TestMain.hs
+  hs-source-dirs:    src test
+  other-modules:    WordCounting,
+                    TestWordCounting
+
+test-suite perf-test
+  type:            exitcode-stdio-1.0
+  build-depends:   base >= 4,
+                   criterion -any,
+                   containers == 0.5.2.1,
+                   split,
+                   bytestring,
+                   text,
+                   unordered-containers == 0.2.2.1
+  hs-source-dirs: src test
+  main-is:         PerfTest.hs
+  Default-language:  Haskell2010
+  other-modules:   WordCounting
+  ghc-options:     -O2
+
