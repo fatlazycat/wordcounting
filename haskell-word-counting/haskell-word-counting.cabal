@@ -38,7 +38,8 @@ test-suite test-progfun
   type:              exitcode-stdio-1.0
   Default-language:  Haskell2010
   main-is:           TestMain.hs
-  hs-source-dirs:    src test
+  hs-source-dirs:    src, 
+                     test
   other-modules:    WordCounting,
                     TestWordCounting
 
