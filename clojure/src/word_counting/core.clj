@@ -36,8 +36,8 @@
 ;    (bench (+ 1 2)))
   (bench
     (doall
-      (test-by-fold))))
-;      (test-by-freq))))
+;      (test-by-fold))))
+      (test-by-freq))))
 
 (defn -main "main function" [& args]
   (test-perf))
