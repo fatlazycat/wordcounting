@@ -45,13 +45,15 @@ test-suite test-progfun
 
 test-suite perf-test
   type:            exitcode-stdio-1.0
-  build-depends:   base >= 4,
+  build-depends:   
+                   base >= 4,
                    criterion -any,
                    containers == 0.5.2.1,
                    split,
                    bytestring,
                    text,
-                   unordered-containers == 0.2.2.1
+                   unordered-containers == 0.2.2.1,
+                   directory
   hs-source-dirs: src test
   main-is:         PerfTest.hs
   Default-language:  Haskell2010
