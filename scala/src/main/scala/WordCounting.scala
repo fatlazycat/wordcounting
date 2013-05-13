@@ -129,7 +129,6 @@ class WordCounting extends SimpleScalaBenchmark {
     processWords(words)
   }
 
-
   def timeInPlaceGetOrElse(reps: Int) = repeat(reps) {
     val results = mutable.Map[String, Int]()
     words.foreach(s => results += (s -> (results.getOrElse(s, 0) + 1)))
