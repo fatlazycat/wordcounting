@@ -13,14 +13,17 @@ executable progfun-haskell
                     attoparsec,
                     bytestring,
                     random,
-                    containers == 0.5.2.1,
+                    containers,
                     split,
-                    text
+                    text,
+                   hashtables == 1.1.0.2
   buildable:         True
   main-is:           Main.hs
   Default-language:  Haskell2010
   hs-source-dirs:    src
-  other-modules:   WordCounting
+  other-modules:   
+                   WordCounting,
+                   WordCountingSTMonad
 
 test-suite test-progfun
   build-depends:    
@@ -30,33 +33,39 @@ test-suite test-progfun
                     attoparsec,
                     bytestring,
                     random == 1.0.1.1,
-                    containers == 0.5.2.1,
+                    containers,
+                    hashtables == 1.1.0.2,
                     regex-compat,
                     split,
                     text,
-                    unordered-containers == 0.2.2.1
+                    unordered-containers == 0.2.2.1,
+                   hashtables == 1.1.0.2
   type:              exitcode-stdio-1.0
   Default-language:  Haskell2010
   main-is:           TestMain.hs
   hs-source-dirs:    src, 
                      test
   other-modules:    WordCounting,
-                    TestWordCounting
+                    TestWordCounting,
+                    WordCountingSTMonad,
+                    TestWordCountingSTMonad
 
 test-suite perf-test
   type:            exitcode-stdio-1.0
   build-depends:   
                    base >= 4,
                    criterion -any,
-                   containers == 0.5.2.1,
+                   containers,
                    split,
                    bytestring,
                    text,
                    unordered-containers == 0.2.2.1,
+                   hashtables == 1.1.0.2,
                    directory
   hs-source-dirs: src test
   main-is:         PerfTest.hs
   Default-language:  Haskell2010
-  other-modules:   WordCounting
+  other-modules:   WordCounting,
+                   WordCountingSTMonad
   ghc-options:     -O2
 
