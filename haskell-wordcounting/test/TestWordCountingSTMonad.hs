@@ -10,6 +10,7 @@ import Data.STRef
 import Control.Monad
 import qualified Data.HashTable.IO as H
 import qualified WordCountingSTMonad as WCST 
+import WordCounting    (obtainTextListFromFile)
 
 type HashTable k v = H.BasicHashTable k v
 
@@ -17,28 +18,18 @@ test_OK = assertEqual True True
 
 test_createText = assertEqual "Hi" (T.pack "Hi")
 
-test_canLookup = do 
-  ht <- expectedHashMap
-  item <- H.lookup ht 1
-  assertEqual (Just 2) item
-  
 test_printMap = do
-  ht <- WCST.wordsTextHashMapST ["hi", "there"]
+  ht <- WCST.wordsTextHashMapST ["hi", "there", "hi"]
   l <- H.toList ht
   forM_ l $ \x -> print x
   assertEqual 1 1
 
-expectedHashMap :: IO (HashTable Int Int)
-expectedHashMap = do
-    ht <- H.new
-    H.insert ht 1 2
-    return ht
-    
---expectedHashMap :: IO (HashTable T.Text Int)
---expectedHashMap = do
---    ht <- H.new
---    H.insert ht "hi" 1
---    return ht    
+test_the277InStMonad = do
+  fileWordsList <- obtainTextListFromFile "test/test.txt" 
+  fileWordsHashMap <- WCST.wordsTextHashMapST fileWordsList
+  found <- H.lookup fileWordsHashMap "the" 
+  assertEqual (Just 277) found
+  assertEqual 6077 (Prelude.length fileWordsList)   
  
 --sumST :: Num a => [a] -> a
 --sumST xs = runST $ do           -- runST takes out stateful code and makes it pure again.
