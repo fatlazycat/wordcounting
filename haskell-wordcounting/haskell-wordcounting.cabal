@@ -1,6 +1,6 @@
 name:           progfun
 version:        0.0.1
-cabal-version:  >=1.10
+cabal-version:  >= 1.10
 build-type:     Simple
 license:        AllRightsReserved
 license-file:   ""
@@ -16,7 +16,8 @@ executable progfun-haskell
                     containers,
                     split,
                     text,
-                   hashtables == 1.1.0.2
+                    hashtables == 1.1.0.2,
+                    unordered-containers == 0.2.2.1
   buildable:         True
   main-is:           Main.hs
   Default-language:  Haskell2010
@@ -68,4 +69,5 @@ test-suite perf-test
   other-modules:   WordCounting,
                    WordCountingSTMonad
   ghc-options:     -O2
+  extensions:      Unsafe
 
