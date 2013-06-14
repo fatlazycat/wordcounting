@@ -137,7 +137,7 @@ class WordCounting extends SimpleScalaBenchmark {
 
   def timeInPlaceWithPut(reps: Int) = repeat(reps) {
     val results = mutable.Map[String, Int]().withDefaultValue(0)
-    words.foreach(s => results.put(s, (results(s) + 1)))
+    words.foreach(s => results.put(s, results(s) + 1))
     results
   }
 
