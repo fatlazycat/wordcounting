@@ -1,6 +1,6 @@
 name:           progfun
 version:        0.0.1
-cabal-version:  >= 1.10
+cabal-version:  >= 1.18
 build-type:     Simple
 license:        AllRightsReserved
 license-file:   ""
@@ -28,7 +28,7 @@ executable progfun-haskell
 
 test-suite test-progfun
   build-depends:    
-                    HTF == 0.10.*,
+                    HTF == 0.11.*,
                     base,
                     aeson,
                     attoparsec,
