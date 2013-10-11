@@ -7,6 +7,7 @@ import qualified Data.Map.Strict     as Map (Map, empty, insertWith)
 import qualified Data.Text           as T (Text, filter, length, split)
 import qualified Data.Text.IO        as TIO (readFile)
 
+splitChars :: String
 splitChars = ".,– \t\"\':;?…\n-"
 
 isCharContained :: Char -> Bool
@@ -15,7 +16,6 @@ isCharContained c = c `elem` splitChars
 obtainTextListFromFile :: FilePath -> IO [T.Text]
 obtainTextListFromFile fileName = do
   contents <- TIO.readFile fileName
-  let splitChars = ".,– \t\"\':;?…\n-"
   let fileWordsList = T.split isCharContained contents
   return (Prelude.filter (\x -> T.length (removeNonAlphaNumFromText x) > 0) fileWordsList)
 

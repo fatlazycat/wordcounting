@@ -52,17 +52,17 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.9.1</version>
+            <version>2.10.3</version>
         </dependency>
         <dependency>
-            <groupId>com.github.jsuereth.scala-arm</groupId>
-            <artifactId>scala-arm_2.9.1</artifactId>
-            <version>1.1</version>
+            <groupId>com.jsuereth</groupId>
+            <artifactId>scala-arm_2.10</artifactId>
+            <version>1.3</version>
         </dependency>
         <dependency>
             <groupId>org.scalatest</groupId>
-            <artifactId>scalatest_2.9.1</artifactId>
-            <version>1.6.1</version>
+            <artifactId>scalatest_2.10</artifactId>
+            <version>1.9.2</version>
         </dependency>
         <dependency>
             <groupId>com.google.caliper</groupId>

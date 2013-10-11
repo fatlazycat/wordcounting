@@ -1,0 +1,584 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"test",
+				"test-perf"
+			],
+			[
+				"auto",
+				"autotest"
+			],
+			[
+				"wo",
+				"words"
+			],
+			[
+				"co",
+				"core"
+			],
+			[
+				"word",
+				"word_counting"
+			],
+			[
+				"spli",
+				"split-lines"
+			],
+			[
+				"spl",
+				"split-lines"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+	"command_palette":
+	{
+		"height": 181.0,
+		"selected_items":
+		[
+			[
+				"INStl",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"hasl",
+				"SublimeHaskell: Reinspect all"
+			],
+			[
+				"pakc",
+				"Package Control: Disable Package"
+			],
+			[
+				"haskell",
+				"SublimeHaskell: Browse module"
+			],
+			[
+				"lint",
+				"SublimeHaskell: Lint"
+			],
+			[
+				"hlint",
+				"SublimeHaskell: Lint"
+			],
+			[
+				"hlin",
+				"SublimeHaskell: Lint"
+			],
+			[
+				"sty",
+				"SublimeHaskell: Stylish"
+			],
+			[
+				"styl",
+				"SublimeHaskell: Stylish"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"hastes",
+				"SublimeHaskell: Test"
+			],
+			[
+				"haskel",
+				"SublimeHaskell: Test"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"hatest",
+				"SublimeHaskell: Test"
+			],
+			[
+				"HaTes",
+				"SublimeHaskell: Test"
+			],
+			[
+				"haste",
+				"SublimeHaskell: Test"
+			],
+			[
+				"test",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"insp",
+				"Package Control: Install Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"chli",
+				"SublimeHaskell: Check & Lint"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"reinsp",
+				"SublimeHaskell: Reinspect all"
+			],
+			[
+				"upp",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upall",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"checkli",
+				"SublimeHaskell: Check & Lint"
+			],
+			[
+				"styli",
+				"SublimeHaskell: Stylish"
+			],
+			[
+				"nexer",
+				"SublimeHaskell: Go to next error"
+			],
+			[
+				"nexter",
+				"SublimeHaskell: Go to next error"
+			],
+			[
+				"che",
+				"SublimeHaskell: Check"
+			],
+			[
+				"sublimehask",
+				"SublimeHaskell: Lint"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"buidru",
+				"Build: Run"
+			],
+			[
+				"build",
+				"Build: Test"
+			],
+			[
+				"lp",
+				"Package Control: List Packages"
+			],
+			[
+				"pcl",
+				"Package Control: List Packages"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"pc",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"PC",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 715.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/haskell-wordcounting.cabal",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/src/Main.hs",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/src/WordCounting.hs",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/test/TestWordCountingSTMonad.hs",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/haskell-wordcount.sublime-workspace",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/haskell-wordcount.sublime-project",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/src/WordCountingSTMonad.hs",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/hlint.hs",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/Setup.hs",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/SublimeHaskell.sublime-settings",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/SublimeHaskell.sublime-settings",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/graham/.bash_profile",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/test/ghc",
+		"/Users/graham/Dropbox/Icon",
+		"/usr/local/Cellar/ghc/7.6.3/INSTALL_RECEIPT.json",
+		"/Applications/IntelliJ IDEA 12.app/bin/idea.properties",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/DashDoc/DashDoc.sublime-settings",
+		"/Applications/EAP IntelliJ IDEA 12.app/bin/idea.properties",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/test/TestWordCounting.hs",
+		"/Users/graham/Development/code/wordcounting/readme.md",
+		"/Applications/EAP IntelliJ IDEA 12.app/bin/idea.vmoptions",
+		"/Users/graham/Downloads/gedthecreator-why-s--poignant--Guide-to-Ruby-e3e49f5/README",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/test/TestWordCounting",
+		"/usr/local/Library/Taps/homebrew-versions/.git/MERGE_MSG",
+		"/Users/graham/Development/code/wordcounting/haskell-word-counting/.project",
+		"/Users/graham/Development/eclipse/workspaceJuno/.metadata/.plugins/net.sf.eclipsefp.haskell.buildwrapper/usage.db",
+		"/Users/graham/Development/code/wordcounting/haskell-word-counting/.dist-buildwrapper/dist/setup-config",
+		"/Users/graham/Development/code/sandbox/.gitignore",
+		"/Users/graham/Development/code/sandbox/word_counting/scala/src/main/scala/WordCounting.scala",
+		"/Users/graham/Development/code/sandbox/word_counting/haskell-word-counting/src/WordCounting.hs",
+		"/Users/graham/Development/code/sandbox/word_counting/haskell-word-counting/hlint.hs",
+		"/Users/graham/Development/code/sandbox/word_counting/haskell/test/TestWordCounting.hs",
+		"/Users/graham/Development/code/sandbox/word_counting/haskell/progfun-haskell.cabal",
+		"/Users/graham/Development/code/sandbox/word_counting/haskell/test/TestMain.hs",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/test/test.txt",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/dist/test/progfun-0.0.1-test-progfun.log",
+		"/Users/graham/Development/code/sandbox/clojure/word_counting/test/word_counting/t_core.clj",
+		"/Users/graham/Development/code/sandbox/clojure/word_counting/resources/test.txt",
+		"/Users/graham/Development/code/sandbox/clojure/word_counting/project.clj",
+		"/Users/graham/Development/code/sandbox/clojure/word_counting/src/word_counting/core.clj",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/graham/Library/Application Support/Google/Chrome/Profile 1/Preferences",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/progfun-haskell.cabal",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/src/Main.hs",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/src/TweetData.hs",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/src/RecFun.hs",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/src/GoogleVsApple.hs",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/test/TweetDataSpec.hs",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/progfun-haskell.sublime-project",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/test/RecFunSpec.hs",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/test/TweetFunSpec.hs",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/TODO.txt",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/test/PrimitiveTestDataGenerator.hs",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/progfun-haskell.sublime-workspace",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/stylishhaskell.py",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/util.py",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/sublime_haskell_common.py",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/cabalbuild.py",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/test/Playground.hs",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/test/TestMain.hs",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/Default.sublime-keymap",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/Default.sublime-keymap",
+		"/Users/graham/Development/code/sandbox/progfun-haskell/test/tweetdata.txt",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/bh_core.sublime-settings",
+		"/Users/graham/Development/code/sandbox/progfun-clojure/src/progfun_clojure/core.clj",
+		"/Users/graham/Development/code/sandbox/progfun-clojure/project.clj",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/Leiningen.sublime-build",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Default (OSX).sublime-keymap",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/BracketHighlighter.sublime-settings",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/graham/.bash_r",
+		"/Applications/IntelliJ IDEA 12.app/bin/idea.vmoptions",
+		"/Users/graham/Downloads/timers.seconds",
+		"/Applications/Leda-IU-123.100.app/bin/idea.properties",
+		"/Users/graham/Desktop/fd.ofx",
+		"/Users/graham/Development/code/sandbox/progfun-clojure/.gitignore",
+		"/Users/graham/Desktop/haskell-nums",
+		"/Users/graham/Desktop/scala-nums",
+		"/Users/graham/Desktop/scala-apple",
+		"/Users/graham/Desktop/haskell-apple",
+		"/Applications/eclipse/Eclipse.app/Contents/Info.plist",
+		"/Users/graham/Development/code/sandbox/progfun-haskell2/progfun-haskell.cabal",
+		"/Users/graham/Development/eclipse/workspaceHaskell/.metadata/.log",
+		"/Users/graham/Desktop/eclipse/Eclipse.app/Contents/Info.plist",
+		"/Users/graham/Downloads/CIF_ALL_FULL_DAILY-toc-full.json",
+		"/Users/graham/Downloads/CIF_ALL_UPDATE_DAILY-toc-update-sat.json",
+		"/Users/graham/Downloads/ghc/cabal-install-0.14.0/README",
+		"/Users/graham/Downloads/ghc/cabal-install-0.14.0/bootstrap.sh",
+		"/private/etc/paths",
+		"/Users/graham/Development/code/sandbox/scala/move/moduleB/pom.xml",
+		"/Users/graham/Development/code/sandbox/scala/move/pom.xml",
+		"/Users/graham/Development/code/sandbox/scala/performance/pom.xml",
+		"/Users/graham/.sbt/plugins/build.sbt",
+		"/Users/graham/Desktop/fd.qif",
+		"/Users/graham/Development/code/sandbox/progfun/assingment 6/streams/build.sbt",
+		"/Users/graham/Development/code/sandbox/haskell/learn-haskell/test/Chapter1Spec.hs",
+		"/Users/graham/Development/code/external/github/forks/homebrew/Library/Formula/ghc.rb",
+		"/Users/graham/Development/code/sandbox/haskell/learn-haskell/Setup.hs",
+		"/Users/graham/Development/code/sandbox/haskell/learn-haskell/learn-haskell.cabal",
+		"/private/etc/launchd.conf",
+		"/Users/graham/.bash_",
+		"/Applications/eclipse/artifacts.xml",
+		"/Applications/eclipse/configuration/config.ini",
+		"/Users/graham/gb",
+		"/Users/graham/Development/code/sandbox/sandbox/pom.xml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"unordered-containers",
+			"dev",
+			" words ",
+			"words",
+			"split",
+			"words",
+			"T.",
+			"FO",
+			"\".,– \\t\\\"\\':;?…\\n-\"",
+			" Tickets",
+			"Tottenham v ",
+			"dir",
+			"Well",
+			"you",
+			"\\\"the\\\"",
+			"You",
+			"Finally",
+			".If",
+			"Finally",
+			"\\\"the\\\"",
+			"the",
+			"youd",
+			"\\",
+			"Word",
+			"\" \"",
+			"\" ",
+			"split-and-remove-blank",
+			"and",
+			"split",
+			"head",
+			"Well",
+			"String",
+			"test",
+			"cabal-dev",
+			"command",
+			"exec",
+			"path",
+			"cabal_dev",
+			"curly",
+			"bracket",
+			"blacklist",
+			"enter",
+			"option",
+			"option+enter",
+			"enter",
+			"lo",
+			".0,",
+			",Tweet",
+			"Tweet",
+			"Samsung",
+			",Tweet",
+			"SEV",
+			">\n",
+			"GHC",
+			"PREFIX",
+			"dict",
+			"More",
+			"more",
+			"Transparent",
+			"path",
+			"START",
+			"Param",
+			"export"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"T.",
+			"",
+			", ",
+			" ,",
+			",\\nTweet"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 211.0
+	},
+	"output.haskell_error_checker":
+	{
+		"height": 416.0
+	},
+	"output.sublime_haskell_hdevtools_type":
+	{
+		"height": 102.0
+	},
+	"output.sublime_haskell_symbol_info":
+	{
+		"height": 102.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"test",
+				"resources/test.txt"
+			],
+			[
+				"pro",
+				"project.clj"
+			],
+			[
+				"core",
+				"src/progfun_clojure/core.clj"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true
+}

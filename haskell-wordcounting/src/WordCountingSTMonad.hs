@@ -1,18 +1,17 @@
 module WordCountingSTMonad where
 
+import           Control.Monad     (forM_)
 import qualified Data.HashTable.IO as H
-import qualified Data.Text           as T (Text, filter, length, split)
-import qualified Data.Foldable       as FO (foldl')
-import Control.Monad
+import           Data.Text         (Text)
 
 type HashTable k v = H.BasicHashTable k v
 
-wordsTextHashMapST :: [T.Text] -> IO (HashTable T.Text Int)
-wordsTextHashMapST words = do 
-  ht <- H.new :: IO (HashTable T.Text Int)
-  forM_ words $ 
-    \w -> do 
+wordsTextHashMapST :: [Text] -> IO (HashTable Text Int)
+wordsTextHashMapST theWords = do
+  ht <- H.new :: IO (HashTable Text Int)
+  forM_ theWords $
+    \w -> do
       countMaybe <- H.lookup ht w
-      H.insert ht w (case countMaybe of Just count -> count+1 
+      H.insert ht w (case countMaybe of Just count -> count+1
                                         Nothing -> 1)
   return ht

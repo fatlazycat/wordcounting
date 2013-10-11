@@ -5,8 +5,6 @@ module TestWordCountingSTMonad where
 
 import           Test.Framework      (assertEqual_, makeLoc, makeTestSuite, makeUnitTest, TestSuite)
 import qualified Data.Text      as T 
-import Control.Monad.ST
-import Data.STRef
 import Control.Monad
 import qualified Data.HashTable.IO as H
 import qualified WordCountingSTMonad as WCST 
@@ -22,7 +20,6 @@ test_printMap = do
   ht <- WCST.wordsTextHashMapST ["hi", "there", "hi"]
   l <- H.toList ht
   forM_ l $ \x -> print x
-  assertEqual 1 1
 
 test_the277InStMonad = do
   fileWordsList <- obtainTextListFromFile "test/test.txt" 
