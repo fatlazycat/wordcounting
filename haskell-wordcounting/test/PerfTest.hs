@@ -6,7 +6,7 @@ import WordCounting      (obtainTextListFromFile, wordsTextHashMapRight, wordsTe
 import WordCountingSTMonad
 
 main = do
- putStrLn =<< getCurrentDirectory
+ putStrLn <- getCurrentDirectory
  fileWordsList <- obtainTextListFromFile "test/test.txt"
  defaultMain [
         bench "map of words text right" $ nf wordsTextMapRight fileWordsList,
