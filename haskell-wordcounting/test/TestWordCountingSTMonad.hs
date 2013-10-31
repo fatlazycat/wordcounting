@@ -1,4 +1,5 @@
 {-# OPTIONS_GHC -F -pgmF htfpp #-}
+{-# OPTIONS -fno-warn-missing-signatures #-}
 {-# LANGUAGE OverloadedStrings #-}
 
 module TestWordCountingSTMonad where

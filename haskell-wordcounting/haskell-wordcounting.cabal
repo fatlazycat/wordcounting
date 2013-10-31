@@ -16,7 +16,7 @@ executable progfun-haskell
                     containers,
                     split,
                     text,
-                    hashtables == 1.1.0.2,
+                    hashtables,
                     unordered-containers
   buildable:         True
   main-is:           Main.hs
@@ -33,14 +33,14 @@ test-suite test-progfun
                     aeson,
                     attoparsec,
                     bytestring,
-                    random == 1.0.1.1,
+                    random,
                     containers,
-                    hashtables == 1.1.0.2,
+                    hashtables,
                     regex-compat,
                     split,
                     text,
                     unordered-containers,
-                   hashtables == 1.1.0.2
+                   hashtables
   type:              exitcode-stdio-1.0
   Default-language:  Haskell2010
   main-is:           TestMain.hs
@@ -61,7 +61,7 @@ test-suite perf-test
                    bytestring,
                    text,
                    unordered-containers,
-                   hashtables == 1.1.0.2,
+                   hashtables,
                    directory
   hs-source-dirs: src test
   main-is:         PerfTest.hs
@@ -69,5 +69,4 @@ test-suite perf-test
   other-modules:   WordCounting,
                    WordCountingSTMonad
   ghc-options:     -O2
-  extensions:      Unsafe
 

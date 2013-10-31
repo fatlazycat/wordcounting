@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"packages"
+			],
+			[
+				"im",
+				"imports"
+			],
+			[
+				"module",
+				"modules"
+			],
+			[
+				"wors",
+				"wordsString"
+			],
+			[
 				"test",
 				"test-perf"
 			],
@@ -35,20 +51,96 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "haskell-wordcounting.cabal",
+			"settings":
+			{
+				"buffer_size": 2120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/PerfTest.hs",
+			"settings":
+			{
+				"buffer_size": 623,
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+	"build_system": "",
 	"command_palette":
 	{
-		"height": 181.0,
+		"height": 93.0,
 		"selected_items":
 		[
 			[
-				"INStl",
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"repl has",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeHaskell: Lint"
+			],
+			[
+				"haskell",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
 				"Package Control: Install Package"
 			],
 			[
 				"remo",
 				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"RUN ",
+				"SublimeHaskell: Run"
+			],
+			[
+				"RUN",
+				"SublimeHaskell: Run"
+			],
+			[
+				"sty",
+				"SublimeHaskell: Stylish"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"haske",
+				"Set Syntax: Haskell"
+			],
+			[
+				"INStl",
+				"Package Control: Install Package"
 			],
 			[
 				"insta",
@@ -67,24 +159,12 @@
 				"Package Control: Disable Package"
 			],
 			[
-				"haskell",
-				"SublimeHaskell: Browse module"
-			],
-			[
-				"lint",
-				"SublimeHaskell: Lint"
-			],
-			[
 				"hlint",
 				"SublimeHaskell: Lint"
 			],
 			[
 				"hlin",
 				"SublimeHaskell: Lint"
-			],
-			[
-				"sty",
-				"SublimeHaskell: Stylish"
 			],
 			[
 				"styl",
@@ -95,23 +175,11 @@
 				"Package Control: List Packages"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"upgr",
 				"Package Control: Upgrade Package"
 			],
 			[
-				"pack",
-				"Package Control: List Packages"
-			],
-			[
 				"remov",
-				"Package Control: Remove Package"
-			],
-			[
-				"remove",
 				"Package Control: Remove Package"
 			],
 			[
@@ -129,10 +197,6 @@
 			[
 				"haskel",
 				"SublimeHaskell: Test"
-			],
-			[
-				"upgra",
-				"Package Control: Upgrade/Overwrite All Packages"
 			],
 			[
 				"hatest",
@@ -165,10 +229,6 @@
 			[
 				"chli",
 				"SublimeHaskell: Check & Lint"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
 			],
 			[
 				"reinsp",
@@ -217,10 +277,6 @@
 			[
 				"sublimehask",
 				"SublimeHaskell: Lint"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"buidru",
@@ -276,18 +332,27 @@
 	},
 	"file_history":
 	[
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/SublimeHaskell.sublime-settings",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/test/TestMain.hs",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/SublimeREPL.sublime-settings",
 		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/haskell-wordcounting.cabal",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/test/TestWordCounting.hs",
 		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/src/Main.hs",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/SublimeHaskell.sublime-settings",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/Default.sublime-keymap",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/src/WordCounting.hs",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/hlint.hs",
+		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/cabalbuild.py",
 		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/test/TestWordCountingSTMonad.hs",
 		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/haskell-wordcount.sublime-workspace",
 		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/haskell-wordcount.sublime-project",
 		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/src/WordCountingSTMonad.hs",
-		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/hlint.hs",
 		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/Setup.hs",
-		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/SublimeHaskell.sublime-settings",
-		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/SublimeHaskell.sublime-settings",
-		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/graham/.bash_profile",
 		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/test/ghc",
 		"/Users/graham/Dropbox/Icon",
@@ -295,7 +360,6 @@
 		"/Applications/IntelliJ IDEA 12.app/bin/idea.properties",
 		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/DashDoc/DashDoc.sublime-settings",
 		"/Applications/EAP IntelliJ IDEA 12.app/bin/idea.properties",
-		"/Users/graham/Development/code/wordcounting/haskell-wordcounting/test/TestWordCounting.hs",
 		"/Users/graham/Development/code/wordcounting/readme.md",
 		"/Applications/EAP IntelliJ IDEA 12.app/bin/idea.vmoptions",
 		"/Users/graham/Downloads/gedthecreator-why-s--poignant--Guide-to-Ruby-e3e49f5/README",
@@ -317,7 +381,6 @@
 		"/Users/graham/Development/code/sandbox/clojure/word_counting/resources/test.txt",
 		"/Users/graham/Development/code/sandbox/clojure/word_counting/project.clj",
 		"/Users/graham/Development/code/sandbox/clojure/word_counting/src/word_counting/core.clj",
-		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
 		"/Users/graham/Library/Application Support/Google/Chrome/Profile 1/Preferences",
 		"/Users/graham/Development/code/sandbox/progfun-haskell/progfun-haskell.cabal",
@@ -335,11 +398,9 @@
 		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/stylishhaskell.py",
 		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/util.py",
 		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/sublime_haskell_common.py",
-		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/cabalbuild.py",
 		"/Users/graham/Development/code/sandbox/progfun-haskell/test/Playground.hs",
 		"/Users/graham/Development/code/sandbox/progfun-haskell/test/TestMain.hs",
 		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SublimeHaskell/Default.sublime-keymap",
 		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/Default.sublime-keymap",
 		"/Users/graham/Development/code/sandbox/progfun-haskell/test/tweetdata.txt",
 		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/bh_core.sublime-settings",
@@ -350,7 +411,6 @@
 		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Default (OSX).sublime-keymap",
 		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/User/BracketHighlighter.sublime-settings",
 		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
-		"/Users/graham/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/graham/.bash_r",
 		"/Applications/IntelliJ IDEA 12.app/bin/idea.vmoptions",
 		"/Users/graham/Downloads/timers.seconds",
@@ -404,6 +464,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"path",
+			"ghci",
+			"hask",
+			"repl",
+			"haskell",
+			"test",
+			"]\n",
+			"compare",
 			"unordered-containers",
 			"dev",
 			" words ",
@@ -490,8 +558,151 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "haskell-wordcounting.cabal",
+					"settings":
+					{
+						"buffer_size": 2120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/SublimeHaskell/Cabal.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test/PerfTest.hs",
+					"settings":
+					{
+						"buffer_size": 623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/SublimeHaskell/Haskell-SublimeHaskell.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

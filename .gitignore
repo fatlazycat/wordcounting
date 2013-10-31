@@ -16,8 +16,10 @@ project/boot/
 out/
 .project
 
-#eclipsefp
+#haskell
 .dist-buildwrapper/
+.cabal-sandbox/
+cabal.sandbox.config
 
 # clojure
 cabal-dev/
